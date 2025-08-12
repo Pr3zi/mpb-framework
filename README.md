@@ -20,7 +20,7 @@
 
 ## 1.2 Quick MPB Diagram / Cheat Sheet
 
-[<img src="../library/MPB_Cheatsheet.png" alt="MPB Cheat Sheet" width="900">](../library/MPB_Cheatsheet.png)
+<img src="library/MPB_Cheatsheet.png" alt="MPB Cheat Sheet" width="900">
 
 ## Why MPB?
 Most projects stall because people start building without clarity or a plan. MPB enforces a simple order:

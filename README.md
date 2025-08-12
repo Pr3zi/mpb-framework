@@ -10,6 +10,19 @@
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
 ---
+## **1.1 ⚡ TL;DR of the MPB Framework**
+
+- **Mind:** Before you start, understand the logic of what you want to create. Without this, you won’t move forward.
+- **Paper:** Put ideas on paper, draw diagrams, get to know the tools. This is 75% of the work.
+- **Building:** Act according to the plan, without distractions, in a state of flow.
+
+---
+
+## 1.2 Quick MPB Diagram / Cheat Sheet
+
+[<img src="../library/MPB_Cheatsheet.png" alt="MPB Cheat Sheet" width="900">](../library/MPB_Cheatsheet.png)
+
+# [Section 2 - Context & Fit](https://www.notion.so/MPB-Project-Framework-Mind-Paper-Building-24a183e5fbc6802ca170fb7d8f096c06?pvs=21)
 
 ## Why MPB?
 Most projects stall because people start building without clarity or a plan. MPB enforces a simple order:

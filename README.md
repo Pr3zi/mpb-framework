@@ -22,8 +22,6 @@
 
 [<img src="../library/MPB_Cheatsheet.png" alt="MPB Cheat Sheet" width="900">](../library/MPB_Cheatsheet.png)
 
-# [Section 2 - Context & Fit](https://www.notion.so/MPB-Project-Framework-Mind-Paper-Building-24a183e5fbc6802ca170fb7d8f096c06?pvs=21)
-
 ## Why MPB?
 Most projects stall because people start building without clarity or a plan. MPB enforces a simple order:
 - **Mind** → get logic and purpose crystal clear.

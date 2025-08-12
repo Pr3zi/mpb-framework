@@ -2,9 +2,10 @@
 
 > The MPB Project Framework (Mind, Paper, Building) is a simple yet effective methodology that helps prevent decision paralysis and stagnation in projects, regardless of their scale or complexity. Its strength lies in a sequential approach that requires each step to be fully completed before moving on to the next, eliminating the risk of getting stuck in an endless loop of no progress.
 
-**→ Full Guide (Notion):** https://przemekrochon.notion.site/MPB-Project-Framework-Mind-Paper-Building-24a183e5fbc6802ca170fb7d8f096c06?pvs=73
+## **→ Full Guide (Notion):** [Open the full guide](https://przemekrochon.notion.site/MPB-Project-Framework-Mind-Paper-Building-24a183e5fbc6802ca170fb7d8f096c06)
 
-**→ Download Files (Latest Release):** https://github.com/Pr3zi/mpb-framework/releases/latest
+
+## **→ Download Files (Latest Release):** [Get the latest release](https://github.com/Pr3zi/mpb-framework/releases/latest)
 
 ![status](https://img.shields.io/badge/status-active-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)

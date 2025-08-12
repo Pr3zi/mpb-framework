@@ -323,7 +323,6 @@ The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whe
 ---
 
 ## Versioning & Releases
-We use semantic-ish versions:
 - `0.1` — rapid iteration
 - `v0.1.0` — first stable
 

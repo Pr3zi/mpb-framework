@@ -306,3 +306,9 @@ Assume failure in 30 days. List 12 causes ranked by likelihood x impact.
 For top 5, add prevention, contingency, early warning indicator, and owner.
 Return a risk register.
 ```
+**📌 Usage Rules**
+
+- Always choose models relevant to the stage.
+- Explain the model briefly before applying it.
+- Guide the user through applying it directly to their project.
+- If the user struggles, break the model into smaller, guided questions.

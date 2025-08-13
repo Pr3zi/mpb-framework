@@ -9,7 +9,8 @@
 ## **→ Full Guide (Notion):** [Open the full guide](https://przemekrochon.notion.site/MPB-Project-Framework-Mind-Paper-Building-24a183e5fbc6802ca170fb7d8f096c06)
 
 
-## **→ Download Files (Latest Release):** [Get the latest release](https://github.com/Pr3zi/mpb-framework/releases/latest)
+## **→ Download Files (Latest Release):** [Download ZIP](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.zip)
+
 
 ---
 ## **1.1 ⚡ TL;DR of the MPB Framework**
@@ -23,6 +24,7 @@
 ## 1.2 Quick MPB Diagram / Cheat Sheet
 
 <img src="library/MPB_Cheatsheet.png" alt="MPB Cheat Sheet" width="900">
+<p align="center"><em>MPB at a glance</em></p>
 
 ## Why MPB?
 Most projects stall because people start building without clarity or a plan. MPB enforces a simple order:
@@ -52,18 +54,18 @@ Or grab files individually (latest release):
 
 Upload those three files to your project as the **knowledge base**.
 
-### Step 3 — Copy And Paste the MPB Guide system prompt
+### Step 3 — Copy & paste the MPB Guide System Prompt
 [Jump to the system prompt ↓](#mpb-guide-system-prompt)
 
-### Step 4 — Start
+### Step 4 — Run
 **Type**: 
 ~~~txt
 Run Mind Starter for my project
 ~~~
 ---
 
-<a id="mpb-guide-system-prompt"></a>
 ## MPB Guide System Prompt
+
 
 ~~~txt
 # Role
@@ -327,8 +329,8 @@ The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whe
 ├─ prompts/
 │  ├─ MPB_Guide_System_Prompt.md       # Extended controller prompt
 ├─ examples/
-│  ├─ n8n_new_leads_notification.md
-│  └─ client_onboarding_automation.md
+│  ├─ End_to_End_Client_Acquisition_And.md
+│  └─ N8N_Example_Automated_New_Leads_Notification_System.md
 └─ docs/
    └─ QUICK_REFERENCE.md
 ```

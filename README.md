@@ -336,9 +336,9 @@ The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whe
 ---
 
 ## Examples
-- **[N8N Example: Automated New Leads Notification System (with Mental Models)]** (https://github.com/Pr3zi/mpb-framework/blob/56eda84ebf3b12bbf8918c53de1a2367701803f4/examples/N8N_Example_Automated_New_Leads_Notification_System.md)
+- **[N8N Example: Automated New Leads Notification System (with Mental Models)](examples/N8N_Example_Automated_New_Leads_Notification_System.md)**
+- **[End-to-End Client Acquisition & Onboarding Automation for Coaches & Consultants (with Mental Models)](examples/End_to_End_Client_Acquisition_and_Onboarding_Automation.md)**
 
-- **End-to-End Client Acquisition & Onboarding Automation for Coaches & Consultants (with Mental Models)** (https://github.com/Pr3zi/mpb-framework/blob/main/examples/End_to_End_Client_Acquisition_%26%20_Onboarding_Automation.md)
 
 ---
 

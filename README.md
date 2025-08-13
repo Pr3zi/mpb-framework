@@ -56,8 +56,10 @@ Upload those three files to your project as the **knowledge base**.
 [Jump to the system prompt ↓](#mpb-guide-system-prompt)
 
 ### Step 4 — Start
-Type: 
-`Run Mind Starter for <your project>`
+**Type**: 
+~~~txt
+Run Mind Starter for my project
+~~~
 ---
 
 <a id="mpb-guide-system-prompt"></a>

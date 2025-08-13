@@ -1,122 +1,88 @@
-## N8N Example: Automated New Leads Notification System (with Mental Models)**
+## **End-to-End Client Acquisition & Onboarding Automation for Coaches & Consultants (with Mental Models)**
 
 ---
 
-### **🧠 Stage 1: Mind**
+### **Stage 1 – Mind**
 
-**Description:**
+**Goal:** Create a fully automated process that takes a prospect from initial inquiry to being fully onboarded and ready for their first coaching session — with zero manual intervention.
 
-At this stage, the focus is on defining the *why* and *what* of the automation before touching any tools. The aim is to gain complete logical clarity on how the new leads notification system will improve sales efficiency.
+**Why:** Saves time, ensures a consistent client experience, and reduces the risk of losing prospects due to delays or missed steps.
 
-**Key Actions:**
+**Logic:**
 
-- Define the exact trigger: e.g., new record in CRM (Pipedrive, HubSpot, Airtable).
-- Decide the notification channel: Slack, Discord, or email.
-- Identify essential lead information for the notification.
-- Clarify recipients and expected reaction time.
+- Trigger: A prospect fills out a “Book a Discovery Call” form on the website.
+- Action: Automatically schedule a call, add them to CRM, send pre-call prep materials.
+- Outcome: Client is onboarded with all information they need before the first session.
 
-**Benefits:**
+**Key Questions:**
 
-- Eliminates unnecessary workflow complexity.
-- Aligns automation purpose with sales goals.
-- Ensures you only collect and send the most valuable data.
-
-**Practical Tips:**
-
-- Start with the simplest possible flow: Trigger → Notification.
-- Limit notifications to qualified leads to avoid noise.
-- Document your logic before designing the workflow in N8N.
-
-**Outcome:**
-
-A clear mental map of how the notification system will work, who it will serve, and what success looks like.
+- What is the *minimum* information we need to collect in the form?
+- Which onboarding materials must every client receive before their first call?
+- Where could delays or errors occur in this flow?
 
 **Mental Models Applied:**
 
-- **First Principles Thinking** – Reduce the workflow to its bare essentials: trigger, notify, store.
-- **Inversion** – List top 3 reasons the system could fail and prevent them early.
-- **Pareto Principle (80/20)** – Identify the 20% of lead data that gives 80% of value to sales.
+- **First Principles Thinking** – Reduce the process to essentials: lead form → schedule → CRM entry → onboarding emails.
+- **Inversion** – Ask: “If this funnel failed, what are the top 5 causes?” (e.g., missed follow-ups, tech errors, poor form design).
+- **Pareto Principle (80/20)** – Focus on the 20% of onboarding actions that deliver 80% of the client’s clarity before the first call.
 
 ---
 
-### **✍️ Stage 2: Paper**
+### **Stage 2 – Paper**
 
-**Description:**
+**Diagram:**
 
-This is where the concept turns into a visual and logical plan. The workflow is mapped, risks are spotted, and the setup sequence is defined.
+1. **Trigger** – Form submission from Book Like a Boss/Calendly.
+2. **Scheduler** – Auto-confirmation & calendar booking.
+3. **CRM Entry** – Add lead to Notion/HubSpot with all form data.
+4. **Pre-Call Email** – Send agenda, Zoom link, and pre-call questions.
+5. **Onboarding Packet** – Deliver PDF or Notion client guide.
+6. **Follow-Up Reminder** – Send reminder 24h before call.
+7. **Automation Logs** – Track in Google Sheet for backup.
 
-**Key Actions:**
+**Tools:** Book Like a Boss, Calendly, N8N, Notion/HubSpot, Google Sheets, Gmail/Outlook.
 
-1. **Trigger:** New lead created in CRM.
-2. **Filter:** Send notifications only for specific lead criteria (location, budget, etc.).
-3. **Formatter:** Standardize and clean lead info for clear display.
-4. **Notification:** Send formatted info to Slack/email.
-5. **Backup:** Save lead data in Google Sheets.
+**POC:** Test the flow with one “fake” lead to ensure every step runs without manual touch.
 
-**Benefits:**
+**Bottlenecks:**
 
-- Ensures workflow steps are clear before building.
-- Reduces risk of misconfigurations.
-- Identifies resource or tool limitations early.
-
-**Practical Tips:**
-
-- Build the workflow diagram before touching N8N.
-- Test logic with one sample lead before scaling.
-- Keep a note of API rate limits and required field mappings.
-
-**Outcome:**
-
-A complete process map ready for implementation in N8N.
+- Calendar conflicts or double-booking.
+- Email going to spam.
+- CRM field mapping errors.
 
 **Mental Models Applied:**
 
-- **Bottleneck Principle** – Spot primary risks: API limits, mapping errors.
-- **Critical Path Method** – Arrange workflow steps in the optimal order.
-- **Red Team Thinking** – Challenge the plan to find weak spots before building.
+- **Bottleneck Principle** – Identify potential blockers (calendar sync, spam filters).
+- **Critical Path Method** – Arrange tasks in the exact order to ensure no step is skipped.
+- **Red Team Thinking** – Try to “break” the flow by testing wrong inputs, typos, and missing data.
 
 ---
 
-### **🔧 Stage 3: Building**
+### **Stage 3 – Building**
 
-**Description:**
+**Setup in N8N:**
 
-Here, the plan becomes a live automation in N8N, tested and prepared for real-world usage.
+- **Trigger node:** Webhook from Book Like a Boss/Calendly.
+- **CRM node:** Create lead entry in Notion or HubSpot.
+- **Email node:** Send pre-call materials.
+- **File delivery node:** Share onboarding guide via Notion link or cloud storage.
+- **Scheduler node:** Add follow-up reminders.
+- **Logging node:** Append lead data to Google Sheet.
 
-**Key Actions:**
+**Test:** Run at least 5 different test submissions with varied data.
 
-- Add **Trigger node** for CRM integration.
-- Configure **Filter node** (IF conditions).
-- Use **Set node** to map and clean fields.
-- Add **Slack node** for sending messages.
-- Add **Google Sheets node** to append backup data.
-- Implement error handling and logging.
-
-**Benefits:**
-
-- Automation works end-to-end without manual checks.
-- Sales team gets immediate, accurate notifications.
-- Reduces time-to-response and increases conversion rate.
-
-**Practical Tips:**
-
-- Test using real leads before going live.
-- Simulate errors to confirm recovery logic works.
-- Keep a versioned copy of the workflow for rollback.
-
-**Outcome:**
-
-A fully functioning, resilient lead notification system running in N8N.
+**Add:** Error handling for failed emails, duplicate prevention for CRM.
 
 **Mental Models Applied:**
 
-- **Feedback Loops** – Use test notifications to verify success continuously.
-- **Checklist Manifesto** – Confirm all nodes are properly configured before publishing.
-- **Premortem Analysis** – Anticipate failure scenarios and build in prevention.
+- **Feedback Loops** – Test reminder and onboarding delivery with a colleague before going live.
+- **Checklist Manifesto** – Verify each node is configured (API keys, fields, links) before launch.
+- **Premortem Analysis** – Imagine the system fails after a week; list likely causes and fix them now.
 
 ---
 
 **✅ Quick Exit Criteria:**
 
-- Sales team receives correct lead info instantly, every time.
-- No manual CRM checks are needed.
+- Every new lead automatically appears in the CRM.
+- Clients receive pre-call and onboarding materials without delay.
+- You spend zero minutes manually adding leads or sending onboarding emails.

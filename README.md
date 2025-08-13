@@ -37,7 +37,20 @@ This repo packages the framework, mental models, and copy‑paste macros so you 
 
 ### Step 1 - Create a new custom project or new GPT in ChatGPT, new project in Claude or Gem in Gemini.  
 
-### Step 2 - Copy & Paste — MPB Guide System Prompt
+### Step 2 - Download Files And Upload To Project Knowledge
+
+Upload these three files as the knowledge base:
+
+MPB_Project_Framework.md
+
+MPB_Mental_Model_Library.md
+
+MPB_Starter_Macros.md
+
+Get the ZIP here: **[Download latest MPB_Project_Framework.zip](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.zip)**
+
+
+### Step 3 - Copy & Paste — MPB Guide System Prompt
 
 ~~~txt
 # Role
@@ -280,14 +293,12 @@ The core process involves guiding the user through three sequential stages:
 # Notes
 The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whether the user needs a quick start or a deep SOP-based walkthrough, the guide uses MPB + mental models to get them unstuck, clarify logic, and keep them moving forward with precision and confidence.
 ~~~
+ 
 
-### Step 3 - Upload Files To Project Knowledge
-    - `framework/MPB_Project_Framework.md`
-    - `library/MPB_Mental_Model_Library.md`
-    - `library/MPB_Starter_Macros.md`
-
-### Step 4 - Type: `Run Mind Starter for <your project>`
-
+### Step 4 - Type: 
+```
+Run Mind Starter for <your project>
+```
 ---
 
 ## Repository Structure
@@ -317,8 +328,8 @@ The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whe
 ---
 
 ## Examples
-- **n8n New Leads Notification** — a minimal MPB automation example (`examples/n8n_new_leads_notification.md`).
-- **Client Acquisition & Onboarding** — end-to-end flow for coaches/consultants (`examples/client_onboarding_automation.md`).
+- **N8N Example: Automated New Leads Notification System (with Mental Models)** (`examples/n8n_new_leads_notification.md`).
+- **End-to-End Client Acquisition & Onboarding Automation for Coaches & Consultants (with Mental Models)** (`examples/End_to_End_Client_Acquisition_& _Onboarding_Automation.md`).
 
 ---
 

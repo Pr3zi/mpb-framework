@@ -1,4 +1,4 @@
-## **End-to-End Client Acquisition & Onboarding Automation for Coaches & Consultants (with Mental Models)**
+## **End-to-End Client Acquisition And Onboarding Automation for Coaches & Consultants (with Mental Models)**
 
 ---
 

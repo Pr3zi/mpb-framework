@@ -1,4 +1,8 @@
 # 📚 MPB Project Framework (Mind → Paper → Building)
+![status](https://img.shields.io/badge/status-active-brightgreen)
+![license](https://img.shields.io/badge/license-MIT-blue)
+[![release](https://img.shields.io/github/v/release/Pr3zi/mpb-framework?display_name=tag)](https://github.com/Pr3zi/mpb-framework/releases/latest)
+
 
 > The MPB Project Framework (Mind, Paper, Building) is a simple yet effective methodology that helps prevent decision paralysis and stagnation in projects, regardless of their scale or complexity. Its strength lies in a sequential approach that requires each step to be fully completed before moving on to the next, eliminating the risk of getting stuck in an endless loop of no progress.
 
@@ -6,9 +10,6 @@
 
 
 ## **→ Download Files (Latest Release):** [Get the latest release](https://github.com/Pr3zi/mpb-framework/releases/latest)
-
-![status](https://img.shields.io/badge/status-active-brightgreen)
-![license](https://img.shields.io/badge/license-MIT-blue)
 
 ---
 ## **1.1 ⚡ TL;DR of the MPB Framework**
@@ -32,25 +33,35 @@ Most projects stall because people start building without clarity or a plan. MPB
 This repo packages the framework, mental models, and copy‑paste macros so you can launch in minutes.
 
 ---
-
 ## 🚀 Quick Start
 
-### Step 1 - Create a new custom project or new GPT in ChatGPT, new project in Claude or Gem in Gemini.  
+### Step 1 — Create a project/agent
+- **ChatGPT**: Create a new GPT (or Project).
+- **Claude**: Create a new Project.
+- **Gemini**: Create a new Agent/Project.
 
-### Step 2 - Download Files And Upload To Project Knowledge
+### Step 2 — Download files & upload to your project knowledge
+The ZIP contains the 3 knowledge-base files:
 
-Upload these three files as the knowledge base:
+- **[Download latest MPB_Project_Framework.zip](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.zip)**
 
-MPB_Project_Framework.md
+Or grab files individually (latest release):
+- [MPB_Project_Framework.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.md)
+- [MPB_Mental_Model_Library.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Mental_Model_Library.md)
+- [MPB_Starter_Macros.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Starter_Macros.md)
 
-MPB_Mental_Model_Library.md
+Upload those three files to your project as the **knowledge base**.
 
-MPB_Starter_Macros.md
+### Step 3 — Copy And Paste the MPB Guide system prompt
+[Jump to the system prompt ↓](#mpb-guide-system-prompt)
 
-Get the ZIP here: **[Download latest MPB_Project_Framework.zip](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.zip)**
+### Step 4 — Start
+Type: 
+`Run Mind Starter for <your project>`
+---
 
-
-### Step 3 - Copy & Paste — MPB Guide System Prompt
+<a id="mpb-guide-system-prompt"></a>
+## MPB Guide System Prompt
 
 ~~~txt
 # Role
@@ -294,11 +305,6 @@ The core process involves guiding the user through three sequential stages:
 The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whether the user needs a quick start or a deep SOP-based walkthrough, the guide uses MPB + mental models to get them unstuck, clarify logic, and keep them moving forward with precision and confidence.
 ~~~
  
-
-### Step 4 - Type: 
-```
-Run Mind Starter for <your project>
-```
 ---
 
 ## Repository Structure
@@ -328,8 +334,8 @@ Run Mind Starter for <your project>
 ---
 
 ## Examples
-- **N8N Example: Automated New Leads Notification System (with Mental Models)** (`examples/n8n_new_leads_notification.md`).
-- **End-to-End Client Acquisition & Onboarding Automation for Coaches & Consultants (with Mental Models)** (`examples/End_to_End_Client_Acquisition_& _Onboarding_Automation.md`).
+- **N8N Example: Automated New Leads Notification System (with Mental Models)** — `examples/n8n_new_leads_notification.md`
+- **End-to-End Client Acquisition & Onboarding Automation for Coaches & Consultants (with Mental Models)** - `examples/End_to_End_Client_Acquisition_& _Onboarding_Automation.md`
 
 ---
 

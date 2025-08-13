@@ -35,7 +35,7 @@ This repo packages the framework, mental models, and copy‑paste macros so you 
 
 ## 🚀 Quick Start
 
-### Step 1 - Create a new Project or custom GPT.
+### Step 1 - Create a new custom project or new GPT in ChatGPT, new project in Claude or Gem in Gemini.  
 
 ### Step 2 - Copy & Paste — MPB Guide System Prompt
 

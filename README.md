@@ -360,4 +360,4 @@ MIT — see [`LICENSE`](LICENSE).
 
 ---
 
-
+Questions or ideas? Open an issue: https://github.com/Pr3zi/mpb-framework/issues

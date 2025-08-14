@@ -75,7 +75,7 @@ Most projects stall because they start without:
 
 ### Step 2 — Download files & upload to your project knowledge
 
-The ZIP contains the 4 knowledge-base files:
+The ZIP contains knowledge-base files:
 
 - **[Download latest MPB_Project_Framework.zip](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.zip)**
 
@@ -95,14 +95,13 @@ Pick one:
 
 - **Light (ChatGPT-friendly, ≤8k characters)** → [MPB_Light_System_Prompt.md](prompts/MPB_Guide_Light_Version.md)  
   _Use in ChatGPT Custom GPT / Projects where system instructions have an ~8k limit. Requires the knowledge files below._
-- **Full (complete controller prompt)** → [MPB_System_Prompt.md](prompts/MPB_Guide_System_Prompt.md)  
+- **Full (complete controller prompt)** → 
+[Jump to the system prompt ↓](#mpb-guide-system-prompt)
+or go straight to the repository
+[MPB_System_Prompt.md](prompts/MPB_Guide_System_Prompt.md)  
   _Use in Claude/Gemini or anywhere with higher limits._
 
-> Both prompts expect these files uploaded as Knowledge:
-
-### Step 3 — Copy & paste the MPB Guide System Prompt
-
-[Jump to the system prompt ↓](#mpb-guide-system-prompt)
+> Both prompts expect these files uploaded as Knowledge
 
 ### Step 4 — Run
 

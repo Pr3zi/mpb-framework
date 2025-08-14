@@ -370,14 +370,16 @@ The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whe
 ├─ CONTRIBUTING.md
 ├─ .gitignore
 ├─ framework/
-│  └─ MPB_Project_Framework.md
+│  └─ MPB_Project_Framework.md         # Full Framework
 ├─ library/
+|  ├─ MPB_Cheatsheet.png               # Cheatsheet
 │  ├─ MPB_Mental_Model_Library.md      # Models + Simple Prompts
 │  └─ MPB_Starter_Macros.md            # Starter macros for Mind/Paper/Building
 ├─ prompts/
-│  ├─ MPB_Guide_System_Prompt.md       # Extended controller prompt
+│  ├─ MPB_Light_System_Prompt.md       # Light System Prompt
+│  └─ MPB_System_Prompt.md             # Full System Prompt
 ├─ examples/
-│  ├─ End_to_End_Client_Acquisition_And.md
+│  ├─ End_to_End_Client_Acquisition_And _Onboarding_Automation.md
 │  └─ N8N_Example_Automated_New_Leads_Notification_System.md
 └─ docs/
    └─ QUICK_REFERENCE.md

@@ -98,7 +98,7 @@ Pick one:
 - **Full (complete controller prompt)** → 
 [Jump to the system prompt ↓](#mpb-guide-system-prompt)
 or go straight to the repository
-[MPB_System_Prompt.md](prompts/MPB_Guide_System_Prompt.md)  
+[MPB_System_Prompt.md](prompts/MPB_System_Prompt.md)  
   _Use in Claude/Gemini or anywhere with higher limits._
 
 > Both prompts expect these files uploaded as Knowledge

@@ -380,8 +380,8 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md). Please follow the MPB structure and ke
 MIT — see [`LICENSE`](LICENSE).
 
 ## Maintainers
-- Przemek Rochon www.przemekrochon.pl kontakt@przemekrochon.pl
-- Apollo Martz 
+- Created by Przemek Rochon www.przemekrochon.pl kontakt@przemekrochon.pl
+- Based on the MPB Framework presented by Apollo Martz 
 
 ---
 

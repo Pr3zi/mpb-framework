@@ -54,9 +54,9 @@ Most projects stall because they start without:
 
 ## This repo includes:
 - The full framework,
-- A Mental Model Library, and
-- Copy‑paste starter macros
-- Real-world examples
+- A Mental Model Library,
+- Copy‑paste starter macros,
+- Real-world examples.
 ---
 
 ## 🚀 Quick Start

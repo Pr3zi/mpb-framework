@@ -71,7 +71,7 @@ Most projects stall because they start without:
 
 - **Claude**: Create a new Project → paste the system prompt → add the 3 files to Knowledge → run the starter macro.
 - **Gemini**: Create a new Gem → paste the system prompt → upload the 3 files as knowledge → run the starter macro.
-- **ChatGPT**: Create a new GPT (or Project) → paste the light system prompt [MPB_Light_System_Prompt.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Light_System_Prompt.md) → upload all files as knowledge → type the starter macro.
+- **ChatGPT**: Create a new GPT (or Project) → paste the light system prompt [MPB_Light_System_Prompt.md](https://github.com/Pr3zi/mpb-framework/blob/d945d03d2d66d9fd6ebf4a13fa36596329e0e48a/prompts/MPB_Light_System_Prompt.md) → upload all files as knowledge → type the starter macro.
 
 ### Step 2 — Download files & upload to your project knowledge
 
@@ -93,13 +93,12 @@ Upload those three files to your project as the **knowledge base**.
 
 Pick one:
 
-- **Light (ChatGPT-friendly, ≤8k characters)** → [`prompts/MPB_Guide_Light_Version.md`](prompts/MPB_Guide_Light_Version.md)  
+- **Light (ChatGPT-friendly, ≤8k characters)** → [MPB_Light_System_Prompt.md](prompts/MPB_Guide_Light_Version.md)  
   _Use in ChatGPT Custom GPT / Projects where system instructions have an ~8k limit. Requires the knowledge files below._
-- **Full (complete controller prompt)** → [`prompts/MPB_Guide_System_Prompt.md`](prompts/MPB_Guide_System_Prompt.md)  
+- **Full (complete controller prompt)** → [MPB_System_Prompt.md](prompts/MPB_Guide_System_Prompt.md)  
   _Use in Claude/Gemini or anywhere with higher limits._
 
-> Both prompts expect these files uploaded as Knowledge:  
-> [`framework/MPB_Project_Framework.md`](framework/MPB_Project_Framework.md), [`library/MPB_Mental_Model_Library.md`](library/MPB_Mental_Model_Library.md), [`library/MPB_Starter_Macros.md`](library/MPB_Starter_Macros.md)
+> Both prompts expect these files uploaded as Knowledge:
 
 ### Step 3 — Copy & paste the MPB Guide System Prompt
 

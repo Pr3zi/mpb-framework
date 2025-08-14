@@ -1,4 +1,4 @@
-# 📚 MPB Project Framework - A 3 Stage System for Turning Any Idea Into Execution
+# 📚 MPB Project Framework - A 3-Stage System to Turn Any Idea Into Action with Clarity and Speed
 ![status](https://img.shields.io/badge/status-active-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 [![release](https://img.shields.io/github/v/release/Pr3zi/mpb-framework?display_name=tag)](https://github.com/Pr3zi/mpb-framework/releases/latest)

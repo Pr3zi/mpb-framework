@@ -381,6 +381,7 @@ MIT — see [`LICENSE`](LICENSE).
 
 ## Maintainers
 - Przemek Rochon www.przemekrochon.pl kontakt@przemekrochon.pl
+- Apollo Martz 
 
 ---
 

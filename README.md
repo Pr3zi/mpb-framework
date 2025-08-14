@@ -1,47 +1,71 @@
-# 📚 MPB Project Framework (Mind → Paper → Building)
+# 📚 MPB Project Framework - A Sequential System for Turning Any Idea Into Execution
 ![status](https://img.shields.io/badge/status-active-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 [![release](https://img.shields.io/github/v/release/Pr3zi/mpb-framework?display_name=tag)](https://github.com/Pr3zi/mpb-framework/releases/latest)
 
+**💡 Turn any idea into a finished project - without chaos, burnout, or decision paralysis.**
 
-> The MPB Project Framework (Mind, Paper, Building) is a simple yet effective methodology that helps prevent decision paralysis and stagnation in projects, regardless of their scale or complexity. Its strength lies in a sequential approach that requires each step to be fully completed before moving on to the next, eliminating the risk of getting stuck in an endless loop of no progress.
+**❌ Most projects fail because people jump straight into building without a plan.**
+
+**📚 MPB is a simple 3-step sequential framework that forces you to think first, plan second, and build last - in the right order.**
+
+---
+
+## TL;DR
+
+1️⃣ Mind – Before you start, get absolute clarity on the logic behind what you want to create. Without this, you won’t move forward.
+
+2️⃣ Paper – Map it visually – put ideas on paper, draw diagrams, test the concept, prepare your tools. This is 75% of the work.
+
+3️⃣ Building – Execute with total focus. Follow the plan without distractions, keep the flow, and avoid mid-build chaos.
+
+---
+
+## 💡 Use MPB for:
+
+**🎨 Creative projects**
+
+**💻 Tech & automation**
+
+**📚 Educational content**
+
+**🏢 Business processes**
 
 ## **→ Full Guide (Notion):** [Open the full guide](https://przemekrochon.notion.site/MPB-Project-Framework-Mind-Paper-Building-24a183e5fbc6802ca170fb7d8f096c06)
 
 
 ## **→ Download Files (Latest Release):** [Download ZIP](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.zip)
 
-
 ---
-## **1.1 ⚡ TL;DR of the MPB Framework**
+## 🗂 Quick Overview
+<img src="library/MPB_Cheatsheet.png" alt="MPB Cheat Sheet" width="900"> <p align="center"><em>MPB at a glance</em></p>
 
-- **Mind:** Before you start, understand the logic of what you want to create. Without this, you won’t move forward.
-- **Paper:** Put ideas on paper, draw diagrams, get to know the tools. This is 75% of the work.
-- **Building:** Act according to the plan, without distractions, in a state of flow.
 
----
+## Why MPB Works?
+Most projects stall because they start without:
+- Clear purpose
+- Validated plan
+- Defined execution flow
 
-## 1.2 Quick MPB Diagram / Cheat Sheet
-
-<img src="library/MPB_Cheatsheet.png" alt="MPB Cheat Sheet" width="900">
-<p align="center"><em>MPB at a glance</em></p>
-
-## Why MPB?
-Most projects stall because people start building without clarity or a plan. MPB enforces a simple order:
+## MPB forces you to:
 - **Mind** → get logic and purpose crystal clear.
-- **Paper** → draft a visual plan and test tools (POC).
+- **Paper** → create a visual plan and test tools (POC).
 - **Building** → execute with focus and feedback loops.
 
-This repo packages the framework, mental models, and copy‑paste macros so you can launch in minutes.
-
+## This repo includes:
+- The full framework,
+- A Mental Model Library, and
+- Copy‑paste starter macros
+- Real-world examples
 ---
+
 ## 🚀 Quick Start
 
 ### Step 1 — Create a project/agent
-- **ChatGPT**: Create a new GPT (or Project).
-- **Claude**: Create a new Project.
-- **Gemini**: Create a new Agent/Project.
-
+- **ChatGPT**: Create a new GPT (or Project) → paste the system prompt → upload the 3 files as knowledge → type the starter macro.
+- **Claude**: Create a new Project → paste the system prompt → add the 3 files to Knowledge → run the starter macro.
+- **Gemini**: Create a new Gem → paste the system prompt → upload the 3 files as knowledge → run the starter macro.
+  
 ### Step 2 — Download files & upload to your project knowledge
 The ZIP contains the 3 knowledge-base files:
 

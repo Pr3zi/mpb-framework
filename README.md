@@ -1,4 +1,5 @@
 # 📚 MPB Project Framework - A 3-Stage System to Turn Any Idea Into Action with Clarity and Speed
+
 ![status](https://img.shields.io/badge/status-active-brightgreen)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 [![release](https://img.shields.io/github/v/release/Pr3zi/mpb-framework?display_name=tag)](https://github.com/Pr3zi/mpb-framework/releases/latest)
@@ -33,45 +34,55 @@
 
 ## **→ Full Guide (Notion):** [Open the full guide](https://przemekrochon.notion.site/MPB-Project-Framework-Mind-Paper-Building-24a183e5fbc6802ca170fb7d8f096c06)
 
-
 ## **→ Download Files (Latest Release):** [Download ZIP](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.zip)
 
 ---
+
 ## 🗂 Quick Overview
+
 <img src="library/MPB_Cheatsheet.png" alt="MPB Cheat Sheet" width="900"> <p align="center"><em>MPB at a glance</em></p>
 
-
 ## Why MPB Works?
+
 Most projects stall because they start without:
+
 - Clear purpose
 - Validated plan
 - Defined execution flow
 
 ## MPB forces you to:
+
 - **Mind** → get logic and purpose crystal clear.
 - **Paper** → create a visual plan and test tools (POC).
 - **Building** → execute with focus and feedback loops.
 
 ## This repo includes:
+
 - The full framework,
 - A Mental Model Library,
 - Copy‑paste starter macros,
 - Real-world examples.
+
 ---
 
 ## 🚀 Quick Start
 
 ### Step 1 — Create a project/agent
-- **ChatGPT**: Create a new GPT (or Project) → paste the system prompt → upload the 3 files as knowledge → type the starter macro.
+
 - **Claude**: Create a new Project → paste the system prompt → add the 3 files to Knowledge → run the starter macro.
 - **Gemini**: Create a new Gem → paste the system prompt → upload the 3 files as knowledge → run the starter macro.
-  
+- **ChatGPT**: Create a new GPT (or Project) → paste the light system prompt [MPB_Light_System_Prompt.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Light_System_Prompt.md) → upload all files as knowledge → type the starter macro.
+
 ### Step 2 — Download files & upload to your project knowledge
-The ZIP contains the 3 knowledge-base files:
+
+The ZIP contains the 4 knowledge-base files:
 
 - **[Download latest MPB_Project_Framework.zip](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.zip)**
 
 Or grab files individually (latest release):
+
+- [MPB_System_Prompt.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_System_Prompt.md)
+- [MPB_Light_System_Prompt.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Light_System_Prompt.md)
 - [MPB_Project_Framework.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.md)
 - [MPB_Mental_Model_Library.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Mental_Model_Library.md)
 - [MPB_Starter_Macros.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Starter_Macros.md)
@@ -79,19 +90,34 @@ Or grab files individually (latest release):
 Upload those three files to your project as the **knowledge base**.
 
 ### Step 3 — Copy & paste the MPB Guide System Prompt
+
+Pick one:
+
+- **Light (ChatGPT-friendly, ≤8k characters)** → [`prompts/MPB_Guide_Light_Version.md`](prompts/MPB_Guide_Light_Version.md)  
+  _Use in ChatGPT Custom GPT / Projects where system instructions have an ~8k limit. Requires the knowledge files below._
+- **Full (complete controller prompt)** → [`prompts/MPB_Guide_System_Prompt.md`](prompts/MPB_Guide_System_Prompt.md)  
+  _Use in Claude/Gemini or anywhere with higher limits._
+
+> Both prompts expect these files uploaded as Knowledge:  
+> [`framework/MPB_Project_Framework.md`](framework/MPB_Project_Framework.md), [`library/MPB_Mental_Model_Library.md`](library/MPB_Mental_Model_Library.md), [`library/MPB_Starter_Macros.md`](library/MPB_Starter_Macros.md)
+
+### Step 3 — Copy & paste the MPB Guide System Prompt
+
 [Jump to the system prompt ↓](#mpb-guide-system-prompt)
 
 ### Step 4 — Run
-**Type**: 
-~~~txt
+
+**Type**:
+
+```txt
 Run Mind Starter for my project
-~~~
+```
+
 ---
 
 ## MPB Guide System Prompt
 
-
-~~~txt
+````txt
 # Role
 You are the **MPB Guide**, a strategic partner for moving from idea to execution using the *Mind → Paper → Building* framework. Your mission is to eliminate decision paralysis, chaotic starts, and stalled projects by guiding users through each stage with precision, clarity, and focus. You combine the MPB process with a **Mental Model Library** to sharpen thinking, uncover blind spots, and make plans resilient before execution. You adapt both the MPB method and the mental models to the user's unique project – whether it’s creative, technical, educational, or business-focused.
 
@@ -331,8 +357,8 @@ The core process involves guiding the user through three sequential stages:
 
 # Notes
 The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whether the user needs a quick start or a deep SOP-based walkthrough, the guide uses MPB + mental models to get them unstuck, clarify logic, and keep them moving forward with precision and confidence.
-~~~
- 
+````
+
 ---
 
 ## Repository Structure
@@ -346,7 +372,7 @@ The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whe
 ├─ CONTRIBUTING.md
 ├─ .gitignore
 ├─ framework/
-│  └─ MPB_Project_Framework.md   
+│  └─ MPB_Project_Framework.md
 ├─ library/
 │  ├─ MPB_Mental_Model_Library.md      # Models + Simple Prompts
 │  └─ MPB_Starter_Macros.md            # Starter macros for Mind/Paper/Building
@@ -362,26 +388,30 @@ The MPB Guide acts as a checkpoint, strategist, and mental sparring partner. Whe
 ---
 
 ## Examples
+
 - **[N8N Example: Automated New Leads Notification System (with Mental Models)](examples/N8N_Example_Automated_New_Leads_Notification_System.md)**
 - **[End-to-End Client Acquisition & Onboarding Automation for Coaches & Consultants (with Mental Models)](examples/End_to_End_Client_Acquisition_and_Onboarding_Automation.md)**
-
 
 ---
 
 ## Versioning & Releases
+
 - `v0.1.0` — first stable
 
 ---
 
 ## Contributing
+
 See [`CONTRIBUTING.md`](CONTRIBUTING.md). Please follow the MPB structure and keep changes concise.
 
 ## License
+
 MIT — see [`LICENSE`](LICENSE).
 
 ## Maintainers
+
 - Created by Przemek Rochon www.przemekrochon.pl kontakt@przemekrochon.pl
-- Based on the MPB Framework presented by Apollo Martz 
+- Based on the MPB Framework presented by Apollo Martz
 
 ---
 

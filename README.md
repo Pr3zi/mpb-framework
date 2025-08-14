@@ -93,13 +93,13 @@ Upload those files to your project as the **knowledge base**.
 
 Pick one:
 
-- **Light (ChatGPT-friendly, ≤8k characters)** → [MPB_Light_System_Prompt.md](prompts/MPB_Guide_Light_Version.md)  
+- **Light (ChatGPT-friendly, ≤8k characters)** → [MPB_Light_System_Prompt.md](prompts/MPB_Light_System_Prompt.md)  
   _Use in ChatGPT Custom GPT / Projects where system instructions have an ~8k limit. Requires the knowledge files below._
-- **Full (complete controller prompt)** → 
-[Jump to the system prompt ↓](#mpb-guide-system-prompt)
-or go straight to the repository
-[MPB_System_Prompt.md](prompts/MPB_System_Prompt.md)  
-  _Use in Claude/Gemini or anywhere with higher limits._
+- **Full (complete controller prompt)** →
+  [Jump to the system prompt ↓](#mpb-guide-system-prompt)
+  or go straight to the repository
+  [MPB_System_Prompt.md](prompts/MPB_System_Prompt.md)  
+   _Use in Claude/Gemini or anywhere with higher limits._
 
 > Both prompts expect these files uploaded as Knowledge
 

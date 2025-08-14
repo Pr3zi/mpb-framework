@@ -81,13 +81,13 @@ The ZIP contains the 4 knowledge-base files:
 
 Or grab files individually (latest release):
 
-- [MPB_System_Prompt.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_System_Prompt.md)
-- [MPB_Light_System_Prompt.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Light_System_Prompt.md)
-- [MPB_Project_Framework.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Project_Framework.md)
-- [MPB_Mental_Model_Library.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Mental_Model_Library.md)
-- [MPB_Starter_Macros.md](https://github.com/Pr3zi/mpb-framework/releases/latest/download/MPB_Starter_Macros.md)
+- [MPB_System_Prompt.md](https://github.com/Pr3zi/mpb-framework/blob/main/prompts/MPB_System_Prompt.md)
+- [MPB_Light_System_Prompt.md](https://github.com/Pr3zi/mpb-framework/blob/main/prompts/MPB_Light_System_Prompt.md)
+- [MPB_Project_Framework.md](https://github.com/Pr3zi/mpb-framework/blob/main/framework/MPB_Project_Framework.md)
+- [MPB_Mental_Model_Library.md](https://github.com/Pr3zi/mpb-framework/blob/main/library/MPB_Mental_Model_Library.md)
+- [MPB_Starter_Macros.md](https://github.com/Pr3zi/mpb-framework/blob/main/library/MPB_Starter_Macros.md)
 
-Upload those three files to your project as the **knowledge base**.
+Upload those files to your project as the **knowledge base**.
 
 ### Step 3 — Copy & paste the MPB Guide System Prompt
 

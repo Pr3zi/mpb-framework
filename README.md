@@ -411,7 +411,7 @@ MIT — see [`LICENSE`](LICENSE).
 ## Maintainers
 
 - Created by Przemek Rochon www.przemekrochon.pl kontakt@przemekrochon.pl
-- Based on the MPB Framework presented by Apollo Martz
+- Based on the MPB Framework presented by Apollo Martz https://www.skool.com/@apollo
 
 ---
 
